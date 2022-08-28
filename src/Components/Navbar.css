@@ -1,0 +1,9 @@
+.logo{
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    
+    width: 50px;
+}
+nav.Link{
+    float: right;
+}

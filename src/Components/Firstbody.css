@@ -1,0 +1,65 @@
+.body-container{
+    background: url('/images/image1.jpg') center center/cover no-repeat;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+   
+}
+
+.center{
+    margin: auto;
+    width: 50%;
+    padding: 10px 0;
+    
+}
+
+form{
+    width: 100%;
+    max-width: 150px;
+    margin: auto;
+}
+form input {
+    font-size: 20px;
+    padding: 0;
+    border: 2px solid #ccc;
+    border-left: 0;
+    width: 60%;
+    color: #999;
+    border-radius: 0 7px 7px 0;
+    font-family: 'Pt Sans' , sans-serif;
+
+
+}
+
+form input:focus{
+    outline: 0;
+}
+
+label{
+    color: #999;
+    display: block;
+    margin-bottom: 5px;
+    
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+}
+.flex {
+    display: flex;
+    justify-content: flex-start;
+}
+.flex input {
+    max-width: 300px;
+    flex: 1 1 300px;
+}
+.flex .currency {
+    font-size: 20px;
+    padding: 0 10px 0 20px;
+    color: #999;
+    border: 2px solid #ccc;
+    border-right: 0;
+    line-height: 2.5;
+    border-radius: 7px 0 0 7px;
+    background: white;
+}
+
