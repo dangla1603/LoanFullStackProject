@@ -6,10 +6,13 @@ import {Container, Col, Row, Button, Card, Form, Container, InputGroup, FormCont
 function Firstbody() {
 
     //TODO:
-    //1) make the box for input field of Loan
-    //2) add buttons "Start Application" & "Get Quote" from the Mortage Rates box
+    // 1. Create 2 divs inside firstBody div to seperate between the message the morgate rate box
+    //      _ Make sure they are flex, so when you minimize or resize the web it will automatically resize the divs
+    // 2. Make card's div and message's div flex as well
+    // 3. Modify .css file to make firs body look nicer.
+    // TD -- I'll take a look into 2nd body with Scheiman Guide 
   return (
-    <div className='body-container '> 
+    <div className='body-container' id='firstBody'> 
         <div class='center'>
             <h1 class='first-text'>Relax,And Let us get you better deal</h1>
             <p> Mortgage expert in refinance, loan purchase</p>
