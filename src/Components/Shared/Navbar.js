@@ -22,8 +22,8 @@ function NavBar() {
                   <NavDropdown.Item href ="contract/our-team">Our Team</NavDropdown.Item>
               </NavDropdown>
               <Nav.Link href="mortage-term">Mortage Term</Nav.Link>
-              <Nav.Link href="login">
-                <Button>Login</Button>
+              <Nav.Link>
+                <Button url="./Login">Login</Button>
               </Nav.Link>
               <Nav.Link href="apply-today">
                 <Button>Apply Today</Button>

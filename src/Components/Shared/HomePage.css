@@ -6,6 +6,13 @@
    
 }
 
+.secondbody-container{
+    background: url('/images/image2.jpg') center center/cover no-repeat;
+    height: 100vh;
+    width: 100%;
+    display: flex; 
+}
+
 .center{
     margin: auto;
     width: 50%;
@@ -61,5 +68,9 @@ label{
     line-height: 2.5;
     border-radius: 7px 0 0 7px;
     background: white;
+}
+
+.secondbody-contaner-div{
+    vertical-align:top;
 }
 

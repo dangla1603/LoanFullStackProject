@@ -1,8 +1,9 @@
 import './App.css';
 import React from 'react';
-import NavBar from './Components/Navbar';
+import NavBar from './Components/Shared/Navbar';
 import Firstbody from './Components/Firstbody';
-import Footer from './Components/Footer';
+import SecondBody from './Components/SecondBody';
+import Footer from './Components/Shared/Footer';
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
         <Firstbody></Firstbody>
       </div>
       <div>
-        <img src="/images/image2.jpg"/>
+        <SecondBody></SecondBody>
       </div>
       <div>
         <Footer></Footer>
