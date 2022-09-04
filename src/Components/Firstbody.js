@@ -10,7 +10,8 @@ function Firstbody() {
     //      _ Make sure they are flex, so when you minimize or resize the web it will automatically resize the divs
     // 2. Make card's div and message's div flex as well
     // 3. Modify .css file to make firs body look nicer.
-    // TD -- I'll take a look into 2nd body with Scheiman Guide 
+    // TD -- I'll take a look into 2nd body with Scheiman Guide
+    // testing bot 
   return (
     <div className='body-container' id='firstBody'> 
         <div class='center'>
