@@ -1,7 +1,7 @@
 import React from 'react'
 import './Firstbody.css';
 import 'bootstrap/dist/css/bootstrap.min.css'
-import {Container, Col, Row, Button, Card, Form, Container, InputGroup, FormControl} from 'react-bootstrap'
+import {Container, Col, Row, Button, Card, Form, InputGroup, FormControl} from 'react-bootstrap'
 
 function Firstbody() {
 
