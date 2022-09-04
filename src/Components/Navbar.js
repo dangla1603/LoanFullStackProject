@@ -11,7 +11,7 @@ function NavBar() {
     <div>
         <Navbar bg="white" variant="white">
             <Navbar.Brand>
-                <img class="logo"src="/images/logo.png"/>
+                <img class="logo"src="/images/logopng.png"/>
             </Navbar.Brand>
             <Nav className="me-auto"></Nav>
             <Nav>
