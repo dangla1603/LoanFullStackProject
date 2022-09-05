@@ -1,5 +1,5 @@
 import React, { PureComponent } from 'react'
-import LoginComponent from "../components/LoginComponent";
+import LoginComponent from '../Components/LoginComponent'
 
 function Login(){
     return (

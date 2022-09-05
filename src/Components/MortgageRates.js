@@ -1,5 +1,5 @@
 import React from 'react'
-import './shared/HomePage.css';
+import './Shared/HomePage.css';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import {Container, Col, Row, Button, Card, Form, InputGroup, FormControl} from 'react-bootstrap'
 
