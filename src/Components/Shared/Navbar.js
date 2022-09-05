@@ -1,7 +1,7 @@
 import React from 'react';
 // import {useNavigate} from "react-router-dom";
 import './Navbar.css';
-import { Button,Nav, Navbar, NavDropdown } from 'react-bootstrap';
+import { Button,Nav, Navbar, NavDropdown,Container } from 'react-bootstrap';
 
 //TODO:
 //1) add logo
@@ -16,11 +16,14 @@ function NavBar() {
   // }
 
   return (
-    <div>
-        <Navbar bg="white" variant="white">
-            <Navbar.Brand>
-                <img className="logo"src="/images/logopng.png" alt='Lock It Lending'/>
+    <div>     
+        <Navbar collapseOnSelect bg="white" variant="white"expand="lg">
+          <Container fluid>
+          <Navbar.Brand>
+                <img class="logo"src="/images/logopng.png"/>
             </Navbar.Brand>
+          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+            <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto"></Nav>
             <Nav>
               <Nav.Link className="ml-auto" href="Home">Home</Nav.Link>
@@ -37,7 +40,10 @@ function NavBar() {
                 <Button>Apply Today</Button>
               </Nav.Link>          
             </Nav>   
-        </Navbar>     
+            </Navbar.Collapse>
+            </Container>  
+        </Navbar>
+             
     </div>
   )
 }

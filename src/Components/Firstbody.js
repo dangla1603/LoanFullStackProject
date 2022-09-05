@@ -10,6 +10,11 @@ function Firstbody() {
     //      _ Make sure they are flex, so when you minimize or resize the web it will automatically resize the divs
     // 2. Make card's div and message's div flex as well
     // 3. Modify .css file to make firs body look nicer.
+<<<<<<< HEAD
+=======
+    // TD -- I'll take a look into 2nd body with Scheiman Guide
+    // testing bot 
+>>>>>>> upstream/develop
   return (
     <div className='body-container' id='firstBody'> 
         <div class='center'>
@@ -17,9 +22,9 @@ function Firstbody() {
             <p> Mortgage expert in refinance, loan purchase</p>
             <Button>Start Application</Button>
         </div>
-        <Container className='auto-fit'>
+        <Container className='auto-fit' >
             <Form>
-                <Card bg='dark' border='dark' style={{width: '36rem', height:'23rem'}}>
+                <Card className='card'bg='dark' border='dark' style={{width: '36rem', height:'23rem'}}>
                     <Card.Header className='text-center text-uppercase text-light'>
                         Mortgage Rates
                     </Card.Header>

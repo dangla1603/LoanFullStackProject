@@ -14,9 +14,11 @@
 }
 
 .center{
-    margin: auto;
-    width: 50%;
-    padding: 10px 0;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    padding: 10px;
+    
     
 }
 
@@ -71,6 +73,12 @@ label{
 }
 
 .secondbody-contaner-div{
-    vertical-align:top;
+position: absolute;
+top: 110%;
+left: 30%;
+
 }
 
+.card{
+    color:blue;
+}
