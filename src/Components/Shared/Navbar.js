@@ -1,6 +1,6 @@
 import React,{useState} from 'react';
 import './Navbar.css';
-import { Button,Nav, Navbar, NavDropdown } from 'react-bootstrap';
+import { Button,Nav, Navbar, NavDropdown,Container } from 'react-bootstrap';
 
 //TODO:
 //1) add logo
@@ -8,11 +8,14 @@ import { Button,Nav, Navbar, NavDropdown } from 'react-bootstrap';
 //3) Add Nagivation for other Nav.Link
 function NavBar() {
   return (
-    <div>
-        <Navbar bg="white" variant="white">
-            <Navbar.Brand>
+    <div>     
+        <Navbar collapseOnSelect bg="white" variant="white"expand="lg">
+          <Container fluid>
+          <Navbar.Brand>
                 <img class="logo"src="/images/logopng.png"/>
             </Navbar.Brand>
+          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+            <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto"></Nav>
             <Nav>
               <Nav.Link className="ml-auto" href="Home">Home</Nav.Link>
@@ -29,7 +32,10 @@ function NavBar() {
                 <Button>Apply Today</Button>
               </Nav.Link>          
             </Nav>   
-        </Navbar>     
+            </Navbar.Collapse>
+            </Container>  
+        </Navbar>
+             
     </div>
   )
 }

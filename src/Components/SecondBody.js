@@ -11,7 +11,7 @@ function SecondBody() {
             <div className='secondbody-contaner-div'>
               <Row>
                 <h1 className='font-weight-bold text-center text-uppercase text-warning'>Why Lock It Lending?</h1>
-                <h4 className='text-center text-danger'>Scotsman Guide Ranking</h4>
+                <h4 className='text-center text-dark'>Scotsman Guide Ranking</h4>
                 <hr/>
               </Row>
               <Row xs={2} md={4} lg={6}>

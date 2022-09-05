@@ -19,9 +19,9 @@ function Firstbody() {
             <p> Mortgage expert in refinance, loan purchase</p>
             <Button>Start Application</Button>
         </div>
-        <Container className='auto-fit'>
+        <Container className='auto-fit' >
             <Form>
-                <Card bg='dark' border='dark' style={{width: '36rem', height:'23rem'}}>
+                <Card className='card'bg='dark' border='dark' style={{width: '36rem', height:'23rem'}}>
                     <Card.Header className='text-center text-uppercase text-light'>
                         Mortgage Rates
                     </Card.Header>
