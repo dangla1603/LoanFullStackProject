@@ -1,21 +1,21 @@
 import './App.css';
 import React from 'react';
-import NavBar from './Components/Shared/Navbar';
-import Firstbody from './Components/Firstbody';
-import SecondBody from './Components/SecondBody';
-import Footer from './Components/Shared/Footer';
+import NavBar from './Navbar';
+import Home from './pages/Home';
+import Footer from './Footer';
+import Login from './pages/Login';
 
 function App() {
   return (
-    <div className="App">
+    <div className="fixed">
       <div>
-        <NavBar></NavBar>
+          <NavBar/>
       </div>
       <div>
-        <Firstbody></Firstbody>
+        <Home></Home>
       </div>
       <div>
-        <SecondBody></SecondBody>
+        <Login/>
       </div>
       <div>
         <Footer></Footer>
