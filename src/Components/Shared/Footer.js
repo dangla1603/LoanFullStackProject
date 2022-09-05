@@ -12,19 +12,19 @@ function Footer() {
                         <Col className="footer-col">
                             <h4>CONTACT US</h4>
                             <ul>
-                                <li><a href="#">(866) 400-6789</a></li>
-                                <li><a href="#">10300 Westoffice Dr, #100, Houston, TX 77042</a></li>
-                                <li><a href="#">info@lockitlending.com</a></li>
+                                <li>(866) 400-6789</li>
+                                <li>10300 Westoffice Dr, #100, Houston, TX 77042</li>
+                                <li>info@lockitlending.com</li>
                             </ul>
                         </Col>
                         <Col className="footer-col">
                             <h4>USEFUL LINKS</h4>
                             <ul>
-                                <li><a href="#">About Our Company</a></li>
-                                <li><a href="#">Our Team</a></li>
-                                <li><a href="#">Contact Us</a></li>
-                                <li><a href="#">Careers</a></li>
-                                <li><a href="#">NMLS#: 1880338</a></li>
+                                <li>About Our Company</li>
+                                <li>Our Team</li>
+                                <li>Contact Us</li>
+                                <li>Careers</li>
+                                <li>NMLS#: 1880338</li>
                             </ul>
                         </Col>
                         <Col className="footer-col">
@@ -34,10 +34,10 @@ function Footer() {
                         </Col>
                         <Col className="footer-col">
                             <h4>SOCIALS</h4>
-                            <a href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a href="#"><i class="fab fa-twitter"></i></a>
-                            <a href="#"><i class="fab fa-instagram"></i></a>
-                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <i class="fab fa-facebook-f"></i> 
+                            <i class="fab fa-twitter"></i>    
+                            <i class="fab fa-instagram"></i>  
+                            <i class="fab fa-linkedin-in"></i>
                         </Col>
                     </Row>
                 </div>
