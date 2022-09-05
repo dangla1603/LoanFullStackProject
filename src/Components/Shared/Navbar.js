@@ -1,7 +1,8 @@
 import React from 'react';
-// import {useNavigate} from "react-router-dom";
+import {useNavigate} from "react-router-dom";
 import './Navbar.css';
 import { Button,Nav, Navbar, NavDropdown,Container } from 'react-bootstrap';
+
 
 //TODO:
 //1) add logo
@@ -9,18 +10,18 @@ import { Button,Nav, Navbar, NavDropdown,Container } from 'react-bootstrap';
 //3) Add Nagivation for other Nav.Link
 function NavBar() {
 
-  // let navigate = useNavigate();
-  // const routeChange = ()=>{
-  //   let path = './Login';
-  //   navigate (path);
-  // }
+  let navigate = useNavigate();
+  const routeChange = ()=>{
+    let path = './Login';
+    navigate (path);
+  }
 
   return (
     <div>     
         <Navbar collapseOnSelect bg="white" variant="white"expand="lg">
           <Container fluid>
           <Navbar.Brand>
-                <img class="logo"src="/images/logopng.png"/>
+                <img class="logo"src="/images/logopng.png" alt='Lockit Logo'/>
             </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
@@ -33,7 +34,7 @@ function NavBar() {
                   <NavDropdown.Item href ="contract/our-team">Our Team</NavDropdown.Item>
               </NavDropdown>
               <Nav.Link>Mortage Term</Nav.Link>
-              <Button color="primary">
+              <Button color="primary" onClick={routeChange}>
                   Login
               </Button>
               <Nav.Link>
