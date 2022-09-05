@@ -1,11 +1,15 @@
 import React from 'react'
-import './shared/HomePage.css'
+import './Shared/HomePage.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
+import NavBar from '../Navbar'
 import {Container, Col, Row, Image, Card, Form, FormControl, InputGroup, Button} from 'react-bootstrap'
+import Footer from '../Footer'
 
 function Login() {
   return (
-    <div className='body-container'>
+    <div >
+        <NavBar></NavBar>
+        <div className='body-container' >
         <div>
           <Card style={{width:'20rem'}}>
               <Card.Header className='text-center'>Login</Card.Header>
@@ -27,6 +31,8 @@ function Login() {
               </Card.Footer>
           </Card>
         </div>
+        </div>
+        <Footer></Footer>
     </div>
   )
 }

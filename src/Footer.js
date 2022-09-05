@@ -8,7 +8,7 @@ function Footer() {
         <div class="footer">
             <div class="container">
                 <div class="row">
-                    <Row>
+                    <Row className="text-white">
                         <Col className="footer-col">
                             <h4>CONTACT US</h4>
                             <ul>
@@ -20,7 +20,7 @@ function Footer() {
                         <Col className="footer-col">
                             <h4>USEFUL LINKS</h4>
                             <ul>
-                                <li>About Our Company</li>
+                                <li c>About Our Company</li>
                                 <li>Our Team</li>
                                 <li>Contact Us</li>
                                 <li>Careers</li>
