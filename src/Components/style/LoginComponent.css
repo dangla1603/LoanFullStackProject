@@ -1,0 +1,13 @@
+.login-background{
+    background: url('/images/loginBG.jpg') center center/cover no-repeat;
+    display: block;
+}
+
+.login-container{
+    width: 100%;
+    height: 100%;
+}
+
+.login-form{
+    
+}

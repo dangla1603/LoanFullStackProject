@@ -1,5 +1,5 @@
 import React from 'react'
-import './Shared/HomePage.css';
+import './style/HomePage.css';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import {Container, Col, Row, Button, Card, Form, InputGroup, FormControl} from 'react-bootstrap'
 
@@ -12,18 +12,18 @@ function Firstbody() {
     // 3. Modify .css file to make firs body look nicer.
   return (
     <div className='body-container' id='firstBody'> 
-        <div class='center'>
-            <h1 class='first-text'>Relax,And Let us get you better deal</h1>
+        <Container>
+            <h2 class='first-text'>Relax,And Let us get you better deal</h2>
             <p> Mortgage expert in refinance, loan purchase</p>
             <Button>Start Application</Button>
-        </div>
-        <Container className='auto-fit' >
+        </Container>
+        <Container className='center'>
             <Form>
-                <Card className='card'bg='dark' border='dark' style={{width: '36rem', height:'23rem'}}>
-                    <Card.Header className='text-center text-uppercase text-light'>
+                <Card className='card' border='white' style={{width: '36rem', height:'23rem'}}>
+                    <Card.Header style={{backgroundColor:'#686A6C', fontSize:'1.25rem'}} className='text-center text-uppercase text-light'>
                         Mortgage Rates
                     </Card.Header>
-                    <Card.Body>
+                    <Card.Body bg='light'>
                         <Row>
                             <Col>
                                 <Form.Label className='text-light'>Loan Amount</Form.Label>

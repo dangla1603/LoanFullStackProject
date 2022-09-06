@@ -1,5 +1,5 @@
 import React from 'react'
-import './Shared/HomePage.css'
+import './style/HomePage.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import {Container, Col, Row, Image} from 'react-bootstrap'
 
