@@ -1,11 +1,13 @@
-import React, { PureComponent } from 'react'
-import LoginComponent from '../Components/LoginComponent'
+import React from 'react'
+import LoginComponent from '../components/LoginComponent'
+import '../components/style/LoginComponent.css'
+
 
 function Login(){
     return (
-        <div>
-            <LoginComponent></LoginComponent>
-        </div>
+        <div className='logic-background'>
+            <LoginComponent/>
+        </div>           
     )
 }
 

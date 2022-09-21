@@ -2,6 +2,7 @@
 body{
 	line-height: 1.5;
 	font-family: 'Poppins', sans-serif;
+	font-size:smaller;
 }
 *{
 	margin:0;
@@ -21,36 +22,38 @@ ul{
 }
 .footer{
 	background-color: #24262b;
-    padding: 70px 0;
+    padding: 30px 0;
     flex-direction: column;
+	bottom: 0;
+	height: 50%;
 }
 .footer-col{
    width: 25%;
    padding: 0 15px;
 }
 .footer-col h4{
-	font-size: 18px;
-	color: #ffffff;
+	font-size: 16px;
+	color: goldenrod;
 	text-transform: capitalize;
-	margin-bottom: 35px;
+	margin-bottom: 20px;
 	font-weight: 500;
 	position: relative;
+	border-bottom: 2px solid #3b3b3b
 }
 .footer-col h4::before{
 	content: '';
 	position: absolute;
 	left:0;
 	bottom: -10px;
-	background-color: #e91e63;
 	height: 2px;
 	box-sizing: border-box;
-	width: 50px;
 }
-.footer-col ul li:not(:last-child){
+.footer-col ul li{
 	margin-bottom: 10px;
+	margin-left: -35px;
 }
 .footer-col ul li a{
-	font-size: 16px;
+	font-size: 5px;
 	text-transform: capitalize;
 	color: #ffffff;
 	text-decoration: none;
@@ -80,20 +83,22 @@ ul{
 	background-color: #ffffff;
 }
 
-#footer-email{
-    outline: none;
-    border: none;
-    border-radius: 10px;
-    
+.form-control {
+    display: block;
+    width: 150%;
+    padding: 0.375rem 0.75rem;
+    font-size: .8rem;
+    margin-left: -75px;
+    font-weight: 300;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    appearance: none;
+    border-radius: 0.375rem;
 }
-#footer-email::placeholder{
-    color: #b1b1b1;
-}
-#footer-email-btn{
-    outline: none;
-    border: none;
-    border-radius: 10px;
-}
+
 /*responsive*/
 @media(max-width: 767px){
   .footer-col{

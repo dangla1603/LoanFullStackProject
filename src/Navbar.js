@@ -1,13 +1,7 @@
 import React from 'react';
-import {Routes, useNavigate} from "react-router-dom";
 import './Navbar.css';
 import { Button,Nav, Navbar, NavDropdown,Container } from 'react-bootstrap';
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link
-} from "react-router-dom";
+import {useNavigate} from "react-router-dom";
 
 //TODO:
 //1) add logo
@@ -28,7 +22,7 @@ function NavBar() {
 
   return (
     <div>     
-        <Navbar collapseOnSelect bg="white" variant="white"expand="lg">
+        <Navbar collapseOnSelect='true' bg="dark" variant="white" expand="lg" fixed='top'>
           <Container fluid>
             <Navbar.Brand>
                   <img class="logo"src="/images/logopng.png" alt='Lockit Logo' onClick={routeHome}/>
@@ -41,13 +35,13 @@ function NavBar() {
                 <Nav.Link>About Us</Nav.Link>
                 <NavDropdown title="Contract Us">
                     <NavDropdown.Item href ="contract/contract">Contract us</NavDropdown.Item>
-                    <NavDropdown.Item href ="contract/our-team">Our Team</NavDropdown.Item>
+                    <NavDropdown.Item href ="contract/our-team" >Our Team</NavDropdown.Item>
                 </NavDropdown>
-                <Nav.Link>Mortage Term</Nav.Link>
+                <Nav.Link href="https://www.nextdoorlending.com/glossary" target="_blank">Mortage Term</Nav.Link>
                 <Button  onClick={routeChange}>
                     Login
                 </Button>        
-                <button type="button" class="btn btn-secondary" onClick={routeApply}>Apply Today</button>
+                <Button class="btn btn-secondary" variant='warning' onClick={routeApply}>Apply Today</Button>
                 
               </Nav>   
             </Navbar.Collapse>
