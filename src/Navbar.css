@@ -1,5 +1,13 @@
 .logo{
     border-radius: inherit; 
     width: 70px;
+    margin-left: 20px;
 }
 
+.nav-link{
+    margin-right: 7px;
+}
+
+.btn{
+    margin-right: 10px;
+}

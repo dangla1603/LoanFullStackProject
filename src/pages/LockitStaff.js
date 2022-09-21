@@ -1,9 +1,10 @@
 import React from 'react'
+import LockitStaffComponent from '../components/LockitStaffComponent'
 
 function LockitStaff() {
   return (
     <div>
-      LockitStaff
+      <LockitStaffComponent></LockitStaffComponent>
     </div>
   )
 }

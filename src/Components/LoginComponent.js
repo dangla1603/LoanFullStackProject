@@ -1,6 +1,5 @@
 import React from 'react'
 import './style/LoginComponent.css'
-import 'bootstrap/dist/css/bootstrap.min.css'
 import {FaUserAlt,FaLock} from 'react-icons/fa'
 import {Card, Form, InputGroup, Button} from 'react-bootstrap'
 

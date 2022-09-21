@@ -31,9 +31,9 @@ function Footer() {
                         <Col className="footer-col">
                             <h4>SOCIALS</h4>
                             <ul>
-                                <li><FaFacebook/>Facebook</li> 
-                                <li><FaInstagram/>Instagram</li>    
-                                <li><FaTiktok/>Tiktok</li>  
+                                <li><FaFacebook/> Facebook</li> 
+                                <li><FaInstagram/> Instagram</li>    
+                                <li><FaTiktok/> Tiktok</li>  
                             </ul>
                         </Col>
                     </Row>

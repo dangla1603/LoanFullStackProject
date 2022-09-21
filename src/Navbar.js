@@ -35,13 +35,13 @@ function NavBar() {
                 <Nav.Link>About Us</Nav.Link>
                 <NavDropdown title="Contract Us">
                     <NavDropdown.Item href ="contract/contract">Contract us</NavDropdown.Item>
-                    <NavDropdown.Item href ="contract/our-team">Our Team</NavDropdown.Item>
+                    <NavDropdown.Item href ="contract/our-team" >Our Team</NavDropdown.Item>
                 </NavDropdown>
-                <Nav.Link>Mortage Term</Nav.Link>
+                <Nav.Link href="https://www.nextdoorlending.com/glossary" target="_blank">Mortage Term</Nav.Link>
                 <Button  onClick={routeChange}>
                     Login
                 </Button>        
-                <button type="button" class="btn btn-secondary" onClick={routeApply}>Apply Today</button>
+                <Button class="btn btn-secondary" variant='warning' onClick={routeApply}>Apply Today</Button>
                 
               </Nav>   
             </Navbar.Collapse>
