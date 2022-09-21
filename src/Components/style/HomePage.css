@@ -2,7 +2,7 @@
     background: url('/images/image1.jpg') center center/cover no-repeat;
     height: 100vh;
     width: 100%;
-    display: auto;
+    display: flex;
    
 }
 
@@ -21,7 +21,7 @@
     
 }
 
-form{
+/* form{
     width: 100%;
     max-width: 150px;
     margin: auto;
@@ -40,7 +40,7 @@ form input {
 
 form input:focus{
     outline: 0;
-}
+} */
 
 label{
     color: #999;
