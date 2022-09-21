@@ -38,9 +38,9 @@ function NavBar() {
                     <NavDropdown.Item href ="contract/our-team" >Our Team</NavDropdown.Item>
                 </NavDropdown>
                 <Nav.Link href="https://www.nextdoorlending.com/glossary" target="_blank">Mortage Term</Nav.Link>
-                <Button  onClick={routeChange}>
+                {/* <Button  onClick={routeChange}>
                     Login
-                </Button>        
+                </Button>         */}
                 <Button class="btn btn-secondary" variant='warning' onClick={routeApply}>Apply Today</Button>
                 
               </Nav>   
