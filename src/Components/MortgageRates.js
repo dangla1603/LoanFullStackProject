@@ -41,6 +41,7 @@ function Firstbody() {
 
     // This function is used to validate data from input field
     // if field is empty, print the message
+    // TODO: add const regex and add more conditions for each field
     const validate = (values) => {
         const errors= {};
         
